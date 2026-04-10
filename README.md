@@ -1,5 +1,11 @@
 # 🔐 XDR Detection & Response Lab using Wazuh
 
+## 🚀 Key Highlights
+- Built XDR lab using Wazuh & Sysmon
+- Developed custom detection rules
+- Mapped detections to MITRE ATT&CK
+- Simulated SOAR using Python automation
+
 ## 📌 Project Overview
 
 This project demonstrates the design and implementation of an **XDR (Extended Detection and Response) lab** using **Wazuh** and **Sysmon** to monitor endpoint activity, detect threats, and simulate incident response workflows.
