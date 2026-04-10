@@ -1,0 +1,30 @@
+<group name="custom,powershell,">
+
+  <rule id="100004" level="12">
+    <if_sid>92027</if_sid>
+    <match>secedit</match>
+    <description>PowerShell secedit execution</description>
+    <mitre>
+      <id>T1059.001</id>
+    </mitre>
+  </rule>
+
+  <rule id="100005" level="12">
+    <if_sid>92027</if_sid>
+    <match>Invoke-WebRequest</match>
+    <description>PowerShell download detected</description>
+    <mitre>
+      <id>T1105</id>
+    </mitre>
+  </rule>
+
+  <rule id="100006" level="12">
+    <if_sid>92027</if_sid>
+    <match>cmd.exe</match>
+    <description>PowerShell spawning CMD</description>
+    <mitre>
+      <id>T1059</id>
+    </mitre>
+  </rule>
+
+</group>
